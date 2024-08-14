@@ -601,9 +601,14 @@ input {
     align-items: center;
     margin: 100px auto;
 }
+.foot-main {
+    width: 450px;
+    height: 180px;
+    margin-top: -380px;
+}
 .foot-head {
     color: rgb(230, 83, 60);
-    font-size: 70px;
+    font-size: 100px;
     font-weight: 800;
     line-height: 120%;
     letter-spacing: 0%;
@@ -836,5 +841,39 @@ input {
         height: 1900px;
         grid-template-columns: repeat(1, 1fr);
         padding-left: 10px;
+    }
+    .foot {
+        width: 100%;
+        height: 1600px;
+    }
+    .foot-main {
+        width: 320px;
+        height: 200px;
+        margin-left: -25px;
+        margin-top: -1px;
+    }
+    .foot-content {
+        flex-direction: column;
+        width: 350px;
+        height: 1300px;
+        margin-top: 20px;
+    }
+    .foot-box {
+        margin-top: 150px;
+    }
+    .foot-get{
+        width: 200px;
+        height: 40px;
+        margin-left: -145px;
+        
+    }
+    .foot-after {
+        width: 200px;
+        height: 250px;
+        margin-left: -145px;
+    }
+    .foot-last {
+        width: 360px;
+        height: 70px;
     }
 }
