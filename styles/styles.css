@@ -732,7 +732,7 @@ input {
     text-align: center;
 }
 
-@media  screen and (max-width:576px) {
+@media  screen and (max-width:596px) {
     .bg-fitness {
         width: 100%;
         height: 1050px;
