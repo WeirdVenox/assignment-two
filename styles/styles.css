@@ -826,6 +826,25 @@ input {
         width: 340px;
         height: 1020px;
     }
+    .limit{
+        width: 350px;
+        height: 1600px;
+        
+    }
+    .limit-header {
+        width: 320px;
+        height: 450px;
+        margin-bottom: 100px;
+    }
+    .limit-content {
+        flex-direction: column;
+        width: 340px;
+        height: 1000px;
+    }
+    .limit-container{
+        
+    }
+
     .run-extra{
         width: 350px;
         height: 540px;
