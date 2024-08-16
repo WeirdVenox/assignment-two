@@ -1,7 +1,13 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 /* shared styles */
 body{
     background-color: black;
@@ -13,7 +19,7 @@ body{
 /* header */
 .bg-fitness{
     width: 100%;
-    height: 715px;
+    height: 805px;
     background: linear-gradient(180.00deg, rgb(42, 41, 41),rgba(119, 119, 119, 0) 100%);
     margin: 0 auto;
     margin-bottom: 100px;
@@ -26,6 +32,7 @@ body{
     position: relative;
     width: 1500px;
     margin: 0 auto;
+    padding-top: 30px;
 }
 
 
@@ -58,7 +65,7 @@ body{
 
 .nav-item{
     list-style: none;
-    margin-right: 67px;
+    margin-right: 56px;
 }
 .nav-link{
     text-decoration: none;
@@ -100,6 +107,8 @@ body{
     line-height: 24px;
     letter-spacing: 0.5px;
     text-align: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 .text-shape {
     font-family: "Playwrite CU", cursive;
@@ -143,8 +152,8 @@ body{
     position: absolute;
     width: 206px;
     height: 96px;
-    right: 470px;
-    top: 755px;
+    right: 420px;
+    top: 455px;
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
@@ -202,7 +211,7 @@ body{
     width: 193px;
     height: 100px;
     right: 140px;
-    top: 200px;
+    top: 30px;
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
@@ -302,7 +311,7 @@ body{
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.9rem;
     font-weight: 400;
-    text-align: center;
+    text-align: center;
 
 }
 /* limit */
@@ -366,7 +375,8 @@ body{
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.9rem;
     font-weight: 400;
-    text-align: center;
+    text-align: center;
+    margin-top: 10px;
 }
 
 /* Run */
@@ -414,6 +424,7 @@ body{
     line-height: 120%;
     letter-spacing: 0%;
     text-align: left;
+    margin-bottom: 20px;
 }
 .run-text{
     color: rgba(255, 255, 255, 0.5);
@@ -423,6 +434,7 @@ body{
     line-height: 24px;
     letter-spacing: 0.3px;
     text-align: left;
+    margin-bottom: 20px;
 }
 .run-btn {
     color: rgb(255, 255, 255);
@@ -456,6 +468,7 @@ body{
     font-weight: 900;
     line-height: 120%;
     letter-spacing: 0%;
+    margin-bottom: 20px;
     
 }
 .bmi-text {
@@ -522,6 +535,8 @@ body{
     line-height: 120%;
     letter-spacing: 0%;
     text-align: left;
+    margin-bottom: 20px;
+    margin-top: -25px;
 }
 .calc-text {
     color: rgba(255, 255, 255, 0.5);
@@ -530,6 +545,7 @@ body{
     line-height: 24px;
     letter-spacing: 0.3px;
     text-align: left;
+    margin-bottom: 20px;
 }
 #calc-data {
     width: 282.5px;
@@ -678,7 +694,8 @@ input {
 .foot-main {
     width: 450px;
     height: 180px;
-    margin-top: -380px;
+    margin-top: -60px;
+    margin-right: 80px;
 }
 .foot-head {
     color: rgb(230, 83, 60);
@@ -688,6 +705,7 @@ input {
     letter-spacing: 0%;
     text-align: left;
     color: rgb(230, 83, 60);
+    margin-bottom: 30px;
 }
 .foot-text {
     color: rgba(255, 255, 255, 0.5);
@@ -713,6 +731,7 @@ input {
     line-height: 120%;
     letter-spacing: 0%;
     text-align: left;
+    margin-bottom: 20px;
 }
 .foot-last {
     width: 1060px;
@@ -735,7 +754,7 @@ input {
 @media  screen and (max-width:596px) {
     .bg-fitness {
         width: 100%;
-        height: 1050px;
+        height: 1350px;
         
        
         
@@ -771,21 +790,31 @@ input {
         align-items: center;
         justify-content: center;
         width: 400px;
+        margin-top: 30px;
     }
     .bannr-head{
         width: 100%;
         font-size: 3.9rem;
+        height: 130px;
     }
     .banner-img {
         padding-right: 0;
         padding-top: 105px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
     .banner-text{
         width: 350px;
+        height: 100px;
+        margin-top: 180px;
+        margin-bottom: 30px;
+
     }
     .banner-container{
         width: 100%;
         padding-left: 5px;
+        height: 500px;
+        margin-bottom: 30px;
 
     }
     .vdo-btn{
@@ -795,23 +824,26 @@ input {
         top: 1030px;
     }
     
-    
+    .banner-img{
+        margin-top: 30px;
+    }
     .elipse{
         width: 40px;
         height: 40px;
     }
     .elipse > img {
-        width: 30px;
-        height: 30px;
+        width: 40px;
+        height: 40px;
     }
     .vdo-text {
         width: 80px;
+        
         height: -45px;
         padding: 10px;
     }
     .vdo-num{
         font-size: 18px;
-        margin-bottom: -7px;
+        margin-bottom: -1px;
     }
     .vdo-tut{
         font-size: 12px;
@@ -864,7 +896,7 @@ input {
     .habits-imgs {
         flex-direction: column;
         width: 340px;
-        height: 1020px;
+        height: 1100px;
     }
     .limit{
         width: 350px;
@@ -879,7 +911,7 @@ input {
     .limit-content {
         flex-direction: column;
         width: 340px;
-        height: 1000px;
+        height: 1080px;
     }
     .limit-container{
         margin-bottom: 10px;
@@ -893,7 +925,7 @@ input {
     }
     .run-box{
         width: 350px;
-        height: 650px;
+        height: 590px;
         flex-direction: column;
     }
     .run-content {
@@ -906,7 +938,8 @@ input {
     }
     .run-text{
         width: 290px;
-        height: 90;
+        height: 150px;
+        margin-top: 30px;
 
     }
     .run-btn{
@@ -923,6 +956,9 @@ input {
         width: 360px;
         height: 125px;
         margin-top: 200px;
+    }
+    .bmi-text{
+        margin-top: 30px;
     }
     .bmi-calc{
         width: 100%;
@@ -944,6 +980,7 @@ input {
         width: 360px;
         height: 395px;
         font-size: 16px;
+        margin-left: 40px;
     }
     .calc-head {
         width: 170px;
@@ -953,6 +990,8 @@ input {
     .calc-text {
         width: 350px;
         height: 75px;
+        margin-top: 20px;
+        margin-bottom: 40px;
     }
     #calc-data {
         width: 140px;
@@ -978,9 +1017,13 @@ input {
         height: 200px;
         margin-left: -25px;
         margin-top: -1px;
+        margin-left: 50px;
     }
     .foot-head{
         margin-left: -10px;
+    }
+    .foot-text{
+        margin-top: 30px;
     }
     .foot-content {
         flex-direction: column;
@@ -1001,6 +1044,10 @@ input {
         width: 200px;
         height: 250px;
         margin-left: -145px;
+    }
+    .foot-point{
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
     .foot-last {
         width: 360px;
