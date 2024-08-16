@@ -527,7 +527,9 @@ body{
     padding-left: 20px;
 }
 
-
+.calc {
+    margin-left: 50px;
+}
 .calc-head {
     color: rgb(255, 255, 255);
     font-size: 28px;
@@ -560,7 +562,7 @@ body{
 
 
 #select {
-    width: 305px;
+    width: 285px;
     height: 48px;
     border-radius: 8px;
     border: none;
@@ -570,7 +572,7 @@ body{
     padding-left: 20px;
 }
 #selects {
-    width: 625px;
+    width: 585px;
     height: 48px;
     border-radius: 8px;
     border: none;
@@ -981,6 +983,7 @@ input {
         height: 395px;
         font-size: 16px;
         margin-left: 40px;
+        margin-left: 40px;
     }
     .calc-head {
         width: 170px;
@@ -997,10 +1000,10 @@ input {
         width: 140px;
     }
     #select{
-        width: 165px;
+        width: 142px;
     }
     #selects {
-        width: 343px;
+        width: 300px;
     }
     .team-imgs {
         width: 350px;
